@@ -1,0 +1,153 @@
+body{
+  padding-bottom: 400px ;
+} 
+
+.animated-welcome {
+  display: inline-block;
+  position: absolute;
+  top: 2rem;
+  left: 30%;
+  transform: translateX(-50,-50%);
+  animation: moveCenter 3s infinite forwards;
+}
+
+@keyframes moveCenter {
+  0% {
+    transform: translateX(-100%);
+  }
+  
+  100% {
+    transform: translateX(0);
+  }
+}
+.user-name{
+  color: rgb(247, 112, 63);
+  font-size: 3rem;
+  margin-top: 0px;
+  
+}
+.button-one{
+  border: 2px solid rgb(247, 112, 63);
+  background-color: white;
+  width: 25rem;
+  margin-bottom: 2rem;
+  color:rgb(247, 112, 63);
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: 0.5s;
+}
+
+.button-one:hover{
+  background-color: rgb(247, 112, 63);
+  color: white;
+
+}/* when button-one is hovered*/
+
+.button-one:active{
+  opacity: 0.3;
+}
+
+.button-two{
+  border: none;
+  background-color: rgb(247, 99, 0);
+  color: white;
+  width: 25rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: 0.5s;
+}
+
+
+.button-two:hover{
+  border: none;
+  background-color: rgb(218, 91, 7);
+  
+}
+.button-two:active{
+  opacity: 0.2;
+}
+
+.button-three{
+  border: none;
+  background-color: rgb(34, 5, 5);
+  color: white;
+  width: 25rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: 0.5s;
+}
+
+
+.button-three:hover{
+  border: none;
+  background-color: rgb(54, 10, 10);
+  color: white;
+ 
+}
+.button-three:active{
+ opacity: 0.3;
+}
+
+.button-four{
+  border: 2px solid rgb(34, 5, 5);
+  background-color: white;
+  color: rgb(247, 99, 0);
+  width: 25rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: 0.5s;
+}
+
+
+.button-four:hover{
+  background-color: rgb(185, 183, 183);
+  border: none;
+  color: white;
+
+}
+.button-four:active{
+ opacity: 0.3;
+}
+.name{
+  font-size: 35px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(34, 1, 1);
+  margin-left: 20rem;
+  margin-top: 6rem ;
+  margin-bottom: 4rem;
+
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 5rem;
+  
+}
+.img{
+  height: 19.5rem;
+  opacity: 0.6;
+  border-radius: 40px;
+  
+}
+
+.img {
+  height: 19.5rem;
+  opacity: 0.6;
+  border-radius: 40px;
+  animation: rotate 3s linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
